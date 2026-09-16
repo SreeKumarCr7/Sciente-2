@@ -21,8 +21,8 @@ Use the same variables for any supported provider integration. `LLM_INPUT_COST_P
 For each fallback call:
 
 ```text
-input cost = input tokens / 1,000,000 * input price
-output cost = output tokens / 1,000,000 * output price
+input cost = input tokens / 1,000,000 * input price for gemini is 0.30$
+output cost = output tokens / 1,000,000 * output price for for gemini is 2.50$
 total cost = input cost + output cost
 ```
 
